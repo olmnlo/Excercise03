@@ -118,30 +118,30 @@ public class App {
         }
 
 
-        
-    /*
-     * 8.Write a program thats check if the word is a palindrome or not. hint: A
-    string is said to be a palindrome if it is the same if we start reading it from
-    left to right or right to left.
-     */
 
-     System.out.print("Enter word: ");
-     String word = scn.next();
-    // shorter solution:
-    //  StringBuilder reversed_word = new StringBuilder(word);
-    //  if (word.equals(reversed_word.toString())){
-    //     System.out.println("it is palindrome");
-    //  }else{
-    //     System.out.println("it is not palindrome");
-        String reversed_word = "";
-    for (int i = word.length()-1; i >= 0; i--) {
-        reversed_word+=word.charAt(i);
-    }
-    if (word.equals(reversed_word)){
-          System.out.println("it is palindrome");
-     }else{
-        System.out.println("it is not palindrome");
-     }
+        /*
+         * 8.Write a program thats check if the word is a palindrome or not. hint: A
+        string is said to be a palindrome if it is the same if we start reading it from
+        left to right or right to left.
+         */
+
+         System.out.print("Enter word: ");
+         String word = scn.next();
+         // shorter solution:
+         //  StringBuilder reversed_word = new StringBuilder(word);
+         //  if (word.equals(reversed_word.toString())){
+         //     System.out.println("it is palindrome");
+         //  }else{
+         //     System.out.println("it is not palindrome");
+         String reversed_word = "";
+         for (int i = word.length()-1; i >= 0; i--) {
+             reversed_word+=word.charAt(i);
+         }
+         if (word.equals(reversed_word)){
+              System.out.println("it is palindrome");
+         }else{
+             System.out.println("it is not palindrome");
+         }
 
 
 
