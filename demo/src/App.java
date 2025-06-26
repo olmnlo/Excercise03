@@ -148,7 +148,7 @@ public class App {
              System.out.println("it is not palindrome");
          }
 
-
+         scn.close();
 
 
     }
