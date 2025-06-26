@@ -100,7 +100,7 @@ public class App {
                 continue;
             }
         }
-        if(num > 0){
+        if(num >= 0){
         if (is_prime && num >= 2){
             System.out.println("the number: "+ num+" is prime");
         }else{
